@@ -10,6 +10,6 @@ export default function ProductListItem(props) {
     />
     <div>{ props.description }</div>
     <div>${ props.price }</div>
-    <div><button>Add to cart</button></div>
+    <div><button onClick={() => props.addToCart(props)}>Add to cart</button></div>
   </div>
 }
