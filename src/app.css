@@ -1,12 +1,28 @@
 body {
   margin: 0;
-  padding: 32px;
+  padding: 0;
   background-color: #3a86f9;
+  width: 100%
 }
-
-body .page-container {
-  width: 600px;
-  padding: 20px 32px;
-  margin: 0 auto;
+* {
+  box-sizing: border-box;
+}
+.page-container {
+  width: 800px;
+  padding: 32px;
+  margin: 10px auto;
   background-color: white;
 }
+
+.product-listing {
+  display: flex;
+  flex-wrap: wrap;
+  flex : 1;
+  flex-direction: row;
+}
+
+.product-listing .product-lis-item {
+  padding: 10px 30px;
+  width: 200px;
+}
+
